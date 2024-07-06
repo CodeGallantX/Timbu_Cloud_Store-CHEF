@@ -109,19 +109,21 @@ const HeroSection = () => {
 
 const FeaturedList = () => {
   return (
-    <h2 style={{
-      fontFamily: 'Lora, sans-serif', 
-      fontWeight: 700, 
-      fontSize: '28px', 
-      letterSpacing: '0.44px',
-      textAlign: 'center',
-    }}>
-      Cookware Collection
-      <hr style={{
-        width: '50px',
-        textAlign: 'center', 
-             }} />
-    </h2>
+    <div style={{display: 'flex', flexDirection: 'column'}}>
+      <h2 style={{
+        fontFamily: 'Lora, sans-serif', 
+        fontWeight: 700, 
+        fontSize: '28px', 
+        letterSpacing: '0.44px',
+        textAlign: 'center',
+      }}>
+        Cookware Collection
+        <hr style={{
+          width: '50px',
+          textAlign: 'center', 
+              }} />
+      </h2>
+    </div>
   );
 };
 
