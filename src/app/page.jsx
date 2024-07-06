@@ -86,7 +86,7 @@ const HeroSection = () => {
           fontWeight: 700, 
           fontSize: '44px', 
           lineHeight: '48px',
-          letterSpacing: '0.44px'
+          letterSpacing: '0.44px',
         }}>
           Built to last, Cook with Confidence
         </h1>
