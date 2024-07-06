@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+
 
 const Navbar = () => {
   return (
@@ -67,7 +69,7 @@ const HeroSection = () => {
   return (
     <div style={{ position: 'relative', width: '100%', height: '618px' }}>
       <img
-        src="https://ik.imagekit.io/mshcgnjju/CHEF%20-%20Timbu%20Cloud%20Store/hero-bg.jpg"
+      src="https://ik.imagekit.io/mshcgnjju/CHEF%20-%20Timbu%20Cloud%20Store/hero-bg.jpg"
         alt="Background"
         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
       />
@@ -78,6 +80,7 @@ const HeroSection = () => {
           left: '50%', 
           transform: 'translate(-50%, -50%)', 
           textAlign: 'center',
+          width: '100%',
           color: '#fffffe' 
         }}
       >
@@ -104,14 +107,22 @@ const HeroSection = () => {
   );
 };
 
-const Page = () => {
+const FeaturedList = () => {
   return (
-    <div>
-      <Navbar />
-      <HeroSection />
-      {/* Other page content */}
-    </div>
+    <h2 style={{
+      fontFamily: 'Lora, sans-serif', 
+      fontWeight: 700, 
+      fontSize: '28px', 
+      letterSpacing: '0.44px',
+      textAlign: 'center',
+    }}>
+      Cookware Collection
+      <hr style={{
+        width: '50px',
+        textAlign: 'center', 
+             }} />
+    </h2>
   );
 };
 
-export default Page;
+export default FeaturedList;
