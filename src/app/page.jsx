@@ -14,12 +14,13 @@ const Navbar = () => {
             <input type="text" placeholder="Search products" style={{ 
               background: 'none', 
               border: 'none', 
-              color: '#9d9d9d', 
+              color: '#9d9d9d',
+              fontFamily: 'Monsterrat', serif,
               fontSize: '16px', 
               fontWeight: 500,
               marginLeft: '24px',
               width: '100%',
-              height: '24px',
+              height: '16px',
               outline: 'none'
             }} />
           </div>
