@@ -104,58 +104,11 @@ const HeroSection = () => {
   );
 };
 
-const FilterSection = () => {
-  return (
-    <div style={{
-      display: 'flex',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      backgroundColor: '#0a0a0a',
-      height: '40px',
-      padding: '0 16px'
-    }}>
-      <div style={{
-        fontFamily: 'Montserrat, sans-serif',
-        fontWeight: 500,
-        fontSize: '18px',
-        lineHeight: '30px',
-        color: '#111111'
-      }}>
-        6 items found
-      </div>
-      <button style={{
-        display: 'flex',
-        alignItems: 'center',
-        padding: '8px 4px',
-        borderRadius: '4px',
-        border: '0.5px solid #0a0a0a',
-        backgroundColor: 'transparent',
-        cursor: 'pointer'
-      }}>
-        <img 
-          src="./assets/solar-alt-arrow-down-linear.svg" 
-          alt="Sort icon" 
-          style={{ width: '24px', height: '24px' }} 
-        />
-        <span style={{
-          fontFamily: 'Montserrat, sans-serif',
-          fontWeight: 500,
-          fontSize: '14px',
-          lineHeight: '22px',
-          color: '#3c3c3c',
-          marginLeft: '4px'
-        }}>
-          Sort by: <span style={{ color: '#db6a18' }}>Popularity</span>
-        </span>
-      </button>
-    </div>
-  );
-};
-
 const Page = () => {
   return (
     <div>
-      <FilterSection />
+      <Navbar />
+      <HeroSection />
       {/* Other page content */}
     </div>
   );
