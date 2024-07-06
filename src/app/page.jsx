@@ -15,7 +15,6 @@ const Navbar = () => {
               background: 'none', 
               border: 'none', 
               color: '#9d9d9d',
-              fontFamily: 'Monsterrat', serif,
               fontSize: '16px', 
               fontWeight: 500,
               marginLeft: '24px',
