@@ -107,6 +107,10 @@ a {
   text-decoration: none;
 }
 
+input {
+  font-family: 'Montserrat', serif;
+}
+
 input::placeholder {
   font-family: 'Montserrat', serif;
 }
