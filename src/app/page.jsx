@@ -67,7 +67,7 @@ const HeroSection = () => {
   return (
     <div style={{ position: 'relative', width: '100%', height: '618px' }}>
       <img
-        src="/assets/hero-bg.jpg"
+        src="https://ik.imagekit.io/mshcgnjju/CHEF%20-%20Timbu%20Cloud%20Store/hero-bg.jpg"
         alt="Background"
         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
       />
