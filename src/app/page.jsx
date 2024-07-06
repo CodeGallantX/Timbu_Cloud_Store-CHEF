@@ -109,13 +109,13 @@ const HeroSection = () => {
 
 const FeaturedList = () => {
   return (
-    <div style={{display: 'flex', flexDirection: 'column'}}>
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
       <h2 style={{
         fontFamily: 'Lora, sans-serif', 
         fontWeight: 700, 
         fontSize: '28px', 
         letterSpacing: '0.44px',
-        textAlign: 'center',
+        // textAlign: 'center',
       }}>
         Cookware Collection
         <hr style={{
